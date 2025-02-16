@@ -1,22 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+body{
+    margin: 0px;
+    border: 3px solid;
+    display: flow-root;
 }
 
 
-header{
-    display: flex;
-    justify-content: flex-start;
-    background-color: blueviolet;
+#img1{
+    
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
+#img2{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
